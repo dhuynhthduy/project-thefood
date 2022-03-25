@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 7 - website</title>
+    <link rel="stylesheet" href="/assets/css/Site_7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="grid-container-header">
+            <ul class="navbar">
+                <li><a href="#"><i class="fas fa-house-user navbar-icon"></i> Trang Chủ</a></li>
+                <li><a href="#">Thực Đơn <i class="fa-solid fa-chevron-down navbar-icon"></i></a>
+                    <ul class="sub-navbar">
+                        <li><a href="#">Món soup</a></li>
+                        <li><a href="#">Món cháo</a></li>
+                        <li><a href="#">Món lẩu</a></li>
+                        <li><a href="#">Món ngon khác</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Thư Viện</a></li>
+                <li><a href="#">Tin Tức</a></li>
+                <li><a href="#"><i class="fas fa-phone-square-alt navbar-icon"></i> Đặt Chỗ</a></li>
+                <li><a href="#"><i class="fas fa-address-card navbar-icon"></i> Liên Hệ</a></li>
+            </ul>
+            <div class="search-container">
+                <form action="#" method="get">
+                    <input type="text" name="search" id="search">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+        <div id="slider">
+            <div class="grid-container-banner">
+                <div class="sale">Giảm 20% vào các ngày thường</div>
+                <img src="/assets/img/banner.png" alt="Banner" class="banner">
+            </div>
+        </div>
+        <div id="content">
+            <div class="content-list">
+                <div class="content-list-heading">
+                    <h1 class="content-list-title">Món ngon hôm nay</h1>
+                </div>
+                <table class="content-table">
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-heading">Soup</td>
+                            <td>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-1.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Soup cua</p>
+                                </div>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-2.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Soup hạt sen</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-3.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Soup nám tuyết</p>
+                                </div>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-4.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Soup rong biển</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-heading">Gỏi</td>
+                            <td>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-5.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Gỏi cuốn</p>
+                                </div>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-6.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Gỏi nấm tuyết</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-1.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Bì cuốn</p>
+                                </div>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-2.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Chả giò</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-heading">Lẩu</td>
+                            <td>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-3.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Lẩu nắm tiêu xanh</p>
+                                </div>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-4.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Lẩu nấm</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-5.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Lẩu chao</p>
+                                </div>
+                                <div class="table-content">
+                                    <img src="/assets/img/food-6.jpeg" alt="soup" class="table-img">
+                                    <p class="table-content-name">Lẩu thái</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="booking">
+                <div class="content-list-heading">
+                    <h1 class="content-list-title">Đặt bàn</h1>
+                </div>
+                <div class="booking-content">
+                    <div class="booking-form">
+                        <img class="booking-img" src="/assets/img/leaf-bg.jpg" alt="leaf-bg">
+                        <form action="" class="formbox">
+                            <table>
+                                <tr>
+                                    <td class="left"><label for="name">Họ và tên</label></td>
+                                    <td class="right"><input class="w-100" type="text" name="name" id="name"></td>
+                                </tr>
+                                <tr>
+                                    <td class="left"><label for="address">Địa chỉ</label></td>
+                                    <td>
+                                        <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="left"><label for="quality">Số lượng bàn</label></td>
+                                    <td class="right"><input class="w-100" type="text" name="quality" id="quality" placeholder="Số bàn"></td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Buổi</td>
+                                    <td class="right">
+                                        <input type="radio" name="time" id="morning" value="morning">
+                                        <label for="morning">Sáng</label>
+                                        <input type="radio" name="time" id="noon" value="noon">
+                                        <label for="noon">Trưa</label>
+                                        <input type="radio" name="time" id="afternoon" value="afternoon" checked>
+                                        <label for="afternoon">Chiều</label>
+                                    </td>
+                                </tr>
+                            </table>
+                            <button class="btn-booking">Đặt bàn</button>
+                        </form>
+                    </div>
+                    <div class="booking-img">
+                        <img class="booking-image" src="/assets/img/booking.jpg" alt="booking-image">
+                    </div>
+                </div>
+            </div>
+            <div class="content-member">
+                <div class="content-list-heading">
+                    <h1 class="content-list-title">Đầu bếp tuyệt vời</h1>
+                </div>
+                <div class="member-list">
+                    <div class="tooltip">
+                        <span class="tooltip-text">Đầu bếp trưởng</span>
+                        <img src="/assets/img/cook1.jpg" alt="member 1" class="member-img">
+                    </div>
+                    <div class="tooltip">
+                        <span class="tooltip-text">Đầu bếp phó</span>
+                        <img src="/assets/img/cook2.jpg" alt="member 1" class="member-img">
+                    </div>
+                    <div class="tooltip">
+                        <span class="tooltip-text">Đầu bếp món Âu</span>
+                        <img src="/assets/img/cook3.jpeg" alt="member 1" class="member-img">
+                    </div>
+                    <div class="tooltip">
+                        <span class="tooltip-text">Đầu bếp món Á</span>
+                        <img src="/assets/img/cook4.jpg" alt="member 1" class="member-img">
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-content-left">
+                        <h3 class="main-content-heading">
+                            Chúng tôi mang đến cho bạn và gia đình những bữa ăn.
+                        </h3>
+                        <p class="main-content-parag1">
+                            "Đậm đà mà thanh vị, đơn giản mà tinh tế"
+                        </p>
+                        <div class="main-content-parag2">
+                            Với sự tỉ mỉ từ khâu lựa chọn nguyên liệu đến chế biến, Bếp nhà Here và Now cam kết sự an
+                            toàn về sứ khỏe cho thực khách khi thưởng thức món ăn tại đây. giữa sự hỗn độn, tràn làn của
+                            thực phẩm độc hại trên thị trường hiện nay thì tìm đến nhà Here and Now là sự lựa chọn hàng
+                            đầu mà bạn nên nghĩ tới!
+                        </div>
+                        <h3 class="main-content-heading">
+                            Có nguồn gốc từ thực vật.
+                        </h3>
+                        <div class="main-content-parag2 clear-margin">
+                            Thiên nhiên đã ưu đãi cho chúng ta nguồn thực vật phong phú, dinh dưỡng đủ đầy. Biết tìm
+                            hiểu và kết hợp các nguyên liệu đó 1 cách hài hòa, Bếp nhà Here and Now đã, đang và sẽ tạo
+                            ta các món ăn làm hài lòng thực khách bởi chất lượng và giá trị đích thực cho sức khỏe "Sức
+                            khỏe chính là tài sản quý giá nhất chúng ta có thể lựa chọn"
+                        </div>
+                    </div>
+                    <div class="main-content-img">
+                        <img src="/assets/img/food-1.jpeg" alt="food1" class="content-img">
+                        <img src="/assets/img/food-2.jpeg" alt="food1" class="content-img">
+                        <img src="/assets/img/food-3.jpeg" alt="food1" class="content-img">
+                        <img src="/assets/img/food-4.jpeg" alt="food1" class="content-img">
+                    </div>
+                </div>
+            </div>
+            <div class="content-list">
+                <div class="content-list-heading">
+                    <h1 class="content-list-title">Nhận xét khách hàng</h1>
+                </div>
+                <div class="feedback-container">
+                    <div class="feedback">
+                        <p class="feedback-content">Tôi là một người ăn chay trường được thưởng thức những món ăn chay
+                            của nhà hàng là một niềm vui mỗi ngày của tôi.</p>
+                        <p class="feedback-name">Chị Huyền Trang</p>
+                    </div>
+                    <div class="feedback">
+                        <p class="feedback-content">Tôi là một người ăn chay trường được thưởng thức những món ăn chay
+                            của nhà hàng là một niềm vui mỗi ngày của tôi.</p>
+                        <p class="feedback-name">Nhà sư Thích Huyền Đức</p>
+                    </div>
+                    <div class="feedback">
+                        <p class="feedback-content">Tôi là một người ăn chay trường được thưởng thức những món ăn chay
+                            của nhà hàng là một niềm vui mỗi ngày của tôi.</p>
+                        <p class="feedback-name">Chị Lệ Huyền</p>
+                    </div>
+                    <div class="feedback">
+                        <p class="feedback-content">Tôi là một người ăn chay trường được thưởng thức những món ăn chay
+                            của nhà hàng là một niềm vui mỗi ngày của tôi.</p>
+                        <p class="feedback-name">Anh Minh Hiền</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="map">
+                <img src="/assets/img/map.png" alt="Map" class="map-img">
+            </div>
+            <div class="contact">
+                <h2 class="contact-heading">Liên Hệ</h2>
+                <p class="contact-content"><i class="fa-solid fa-location-dot footer-icon"></i> Số 39/2 Đường số 3,
+                    phường Trường Thọ, TP.Thủ Đức, TP.HCM</p>
+                <p class="contact-content"><i class="fa-solid fa-phone footer-icon"></i> Điện thoại:
+                    0345xxxxxx-0384xxxxxx</p>
+                <p class="contact-content"><i class="fa-solid fa-clock footer-icon"></i> Giờ mở cửa trong tuần: Thứ 2-
+                    Chủ Nhật (9AM-9PM)</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
